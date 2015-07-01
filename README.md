@@ -5,7 +5,7 @@ version 0.12.0.
 
 ## Install
 ```
-git clone https://github.com/dariospadoni/sc-angular-test.git
+git clone https://github.com/dariospadoni/stratagem.git
 cd sc-angular-test
 npm install
 bower install
