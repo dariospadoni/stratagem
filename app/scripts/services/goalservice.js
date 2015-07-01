@@ -18,7 +18,7 @@ angular
 
             //get all goals data from the test json file
             function getDataGoals() {
-                return $http.get('../../data/goals.json');
+                return $http.get('../../data/goals.js');
             }
 
 
