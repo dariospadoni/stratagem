@@ -35,7 +35,7 @@ angular
             .state('app.line', {
                 url: '/line',
                 templateUrl: '../views/line.html',
-                resolve15: {
+                resolve: {
                     fields: function (fields) {
                         return fields.data;
                     }
