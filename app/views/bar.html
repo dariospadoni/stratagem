@@ -1,0 +1,17 @@
+
+<div class="panel panel-default">
+
+    <div class="panel-heading" ng-bind="graphName || defaultName"></div>
+
+    <div class="panel-body">
+
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="graphName" id="pieGraphName" placeholder="Graph name">
+            </div>
+        </form>
+
+        <canvas id="bar" class="chart chart-bar" data="values" labels="labels"></canvas>
+
+    </div>
+</div>

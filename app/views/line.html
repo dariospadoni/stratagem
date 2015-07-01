@@ -1,0 +1,21 @@
+
+<div class="panel panel-default">
+
+    <div class="panel-heading" ng-bind="graphName || defaultName">Line Chart</div>
+
+    <div class="panel-body">
+
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="graphName" id="pieGraphName" placeholder="Graph name">
+            </div>
+        </form>
+
+        <canvas id="bar" class="chart chart-line" labels="labels" data="values" ></canvas>
+
+    </div>
+</div>
+
+
+
+
